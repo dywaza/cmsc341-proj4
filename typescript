@@ -1,0 +1,254 @@
+Script started on 2018-11-19 12:48:01-05:00
+[sy45690@linux1 proj4-late2] ls
+City.cpp  MedianHeap.h	p4test4.cpp  typescript
+City.h	  p4test2.cpp	p4test7.cpp
+[sy45690@linux1 proj4-late2] g++ p4test[Kt2.cpp MedianHeap.h o[K-o t2.out
+[sy45690@linux1 proj4-late2] g++ p4test4.cpp MedianHeap.h City.cpp City.h -o t4. out
+[sy45690@linux1 proj4-late2] g++ p4test7.cpp MedianHeap.h -o t7.out
+[sy45690@linux1 proj4-late2] ls
+City.cpp  MedianHeap.h	p4test4.cpp  t2.out  t7.out
+City.h	  p4test2.cpp	p4test7.cpp  t4.out  typescript
+[sy45690@linux1 proj4-late2] t2.out
+---- MedianHeap.dump() BEGIN HERE ----     
+Reported capacity: 100
+
+---------- MAXHEAP heap ----------
+size = 13, capacity = 52
+Heap[1] = 88
+Heap[2] = 85
+Heap[3] = 87
+Heap[4] = 86
+Heap[5] = 83
+Heap[6] = 77
+Heap[7] = 81
+Heap[8] = 79
+Heap[9] = 84
+Heap[10] = 82
+Heap[11] = 80
+Heap[12] = 78
+Heap[13] = 76
+
+---------- MINHEAP heap ----------
+size = 12, capacity = 52
+Heap[1] = 89
+Heap[2] = 91
+Heap[3] = 90
+Heap[4] = 94
+Heap[5] = 92
+Heap[6] = 95
+Heap[7] = 96
+Heap[8] = 100
+Heap[9] = 97
+Heap[10] = 98
+Heap[11] = 93
+Heap[12] = 99
+
+min:   = 76
+max:   = 100
+median = 88
+
+==== END MEDIANHEAP.DUMP() ====             
+---- MedianHeap.dump() BEGIN HERE ----     
+Reported capacity: 100
+
+---------- MAXHEAP heap ----------
+size = 25, capacity = 52
+Heap[1] = 76
+Heap[2] = 20
+Heap[3] = 24
+Heap[4] = 13
+Heap[5] = 19
+Heap[6] = 23
+Heap[7] = 4
+Heap[8] = 8
+Heap[9] = 12
+Heap[10] = 15
+Heap[11] = 18
+Heap[12] = 22
+Heap[13] = 16
+Heap[14] = 1
+Heap[15] = 3
+Heap[16] = 5
+Heap[17] = 7
+Heap[18] = 9
+Heap[19] = 11
+Heap[20] = 10
+Heap[21] = 14
+Heap[22] = 2
+Heap[23] = 17
+Heap[24] = 6
+Heap[25] = 21
+
+---------- MINHEAP heap ----------
+size = 24, capacity = 52
+Heap[1] = 77
+Heap[2] = 79
+Heap[3] = 78
+Heap[4] = 84
+Heap[5] = 80
+Heap[6] = 87
+Heap[7] = 88
+Heap[8] = 91
+Heap[9] = 85
+Heap[10] = 83
+Heap[11] = 81
+Heap[12] = 90
+Heap[13] = 95
+Heap[14] = 96
+Heap[15] = 89
+Heap[16] = 100
+Heap[17] = 94
+Heap[18] = 97
+Heap[19] = 86
+Heap[20] = 98
+Heap[21] = 92
+Heap[22] = 93
+Heap[23] = 82
+Heap[24] = 99
+
+min:   = 1
+max:   = 100
+median = 76
+
+==== END MEDIANHEAP.DUMP() ====             
+=====================================================
+sanityCheck called ...
+max and min heap sizes are consistent MedianHeap::size()
+max and min heap sizes are within 1 of each other
+Sanity Check maxHeap...
+Sanity Check minHeap...
+Passed sanityCheck().
+=====================================================
+[sy45690@linux1 proj4-late2] t4.out
+
+
+Dump of Population MedianHeap
+---- MedianHeap.dump() BEGIN HERE ----     
+Reported capacity: 30
+
+---------- MAXHEAP heap ----------
+size = 5, capacity = 17
+Heap[1] = Butte                  AK       61.542  -149.033      3246        28
+Heap[2] = Bear_Creek             AK       60.164  -149.395      1956        33
+Heap[3] = Anchor_Point           AK       59.777  -151.831      1930        39
+Heap[4] = Akutan                 AK       54.136  -165.773      1027        51
+Heap[5] = Cohoe                  AK       60.369  -151.306      1364        17
+
+---------- MINHEAP heap ----------
+size = 5, capacity = 17
+Heap[1] = Big_Lake               AK       61.521  -149.954      3350        44
+Heap[2] = Barrow                 AK       71.291  -156.789      4212         3
+Heap[3] = Badger                 AK       64.800  -147.533     19482       144
+Heap[4] = Anchorage              AK       61.218  -149.900    291826        31
+Heap[5] = Bethel                 AK       60.792  -161.756      6080         1
+
+min:   = Akutan                 AK       54.136  -165.773      1027        51
+max:   = Anchorage              AK       61.218  -149.900    291826        31
+median = Butte                  AK       61.542  -149.033      3246        28
+
+==== END MEDIANHEAP.DUMP() ====             
+
+
+Dump of Elevation MedianHeap
+---- MedianHeap.dump() BEGIN HERE ----     
+Reported capacity: 30
+
+---------- MAXHEAP heap ----------
+size = 5, capacity = 17
+Heap[1] = Anchorage              AK       61.218  -149.900    291826        31
+Heap[2] = Butte                  AK       61.542  -149.033      3246        28
+Heap[3] = Cohoe                  AK       60.369  -151.306      1364        17
+Heap[4] = Bethel                 AK       60.792  -161.756      6080         1
+Heap[5] = Barrow                 AK       71.291  -156.789      4212         3
+
+---------- MINHEAP heap ----------
+size = 5, capacity = 17
+Heap[1] = Bear_Creek             AK       60.164  -149.395      1956        33
+Heap[2] = Anchor_Point           AK       59.777  -151.831      1930        39
+Heap[3] = Akutan                 AK       54.136  -165.773      1027        51
+Heap[4] = Badger                 AK       64.800  -147.533     19482       144
+Heap[5] = Big_Lake               AK       61.521  -149.954      3350        44
+
+min:   = Bethel                 AK       60.792  -161.756      6080         1
+max:   = Badger                 AK       64.800  -147.533     19482       144
+median = Anchorage              AK       61.218  -149.900    291826        31
+
+==== END MEDIANHEAP.DUMP() ====             
+
+
+Delete some cities ...
+Found and deleted:
+Anchorage              AK        0.000     0.000         0         0
+Found and deleted:
+Bear_Creek             AK        0.000     0.000         0         0
+
+
+Dump of Population MedianHeap (after deleting Anchorage, AK)
+---- MedianHeap.dump() BEGIN HERE ----     
+Reported capacity: 30
+
+---------- MAXHEAP heap ----------
+size = 5, capacity = 17
+Heap[1] = Butte                  AK       61.542  -149.033      3246        28
+Heap[2] = Bear_Creek             AK       60.164  -149.395      1956        33
+Heap[3] = Anchor_Point           AK       59.777  -151.831      1930        39
+Heap[4] = Akutan                 AK       54.136  -165.773      1027        51
+Heap[5] = Cohoe                  AK       60.369  -151.306      1364        17
+
+---------- MINHEAP heap ----------
+size = 4, capacity = 17
+Heap[1] = Big_Lake               AK       61.521  -149.954      3350        44
+Heap[2] = Barrow                 AK       71.291  -156.789      4212         3
+Heap[3] = Badger                 AK       64.800  -147.533     19482       144
+Heap[4] = Bethel                 AK       60.792  -161.756      6080         1
+
+min:   = Akutan                 AK       54.136  -165.773      1027        51
+max:   = Badger                 AK       64.800  -147.533     19482       144
+median = Butte                  AK       61.542  -149.033      3246        28
+
+==== END MEDIANHEAP.DUMP() ====             
+
+
+Dump of Elevation MedianHeap (after deleting Bear_Creek, AK)
+---- MedianHeap.dump() BEGIN HERE ----     
+Reported capacity: 30
+
+---------- MAXHEAP heap ----------
+size = 5, capacity = 17
+Heap[1] = Anchorage              AK       61.218  -149.900    291826        31
+Heap[2] = Butte                  AK       61.542  -149.033      3246        28
+Heap[3] = Cohoe                  AK       60.369  -151.306      1364        17
+Heap[4] = Bethel                 AK       60.792  -161.756      6080         1
+Heap[5] = Barrow                 AK       71.291  -156.789      4212         3
+
+---------- MINHEAP heap ----------
+size = 4, capacity = 17
+Heap[1] = Anchor_Point           AK       59.777  -151.831      1930        39
+Heap[2] = Big_Lake               AK       61.521  -149.954      3350        44
+Heap[3] = Akutan                 AK       54.136  -165.773      1027        51
+Heap[4] = Badger                 AK       64.800  -147.533     19482       144
+
+min:   = Bethel                 AK       60.792  -161.756      6080         1
+max:   = Badger                 AK       64.800  -147.533     19482       144
+median = Anchorage              AK       61.218  -149.900    291826        31
+
+==== END MEDIANHEAP.DUMP() ====             
+[sy45690@linux1 proj4-late2] time ./t7.out 15000
+checkMin = 461820641
+checkMed = -649964594
+checkMax = 408644184
+1.554u 0.009s 0:01.57 98.7%	0+0k 0+0io 0pf+0w
+[sy45690@linux1 proj4-late2] time ./t7.out 30000
+checkMin = 1192860001
+checkMed = -1385609179
+checkMax = -303568720
+3.236u 0.018s 0:03.28 98.7%	0+0k 0+0io 0pf+0w
+[sy45690@linux1 proj4-late2] time ./t7.out 60000
+checkMin = -1898322335
+checkMed = 1485574691
+checkMax = -1265884832
+6.972u 0.064s 0:07.18 97.9%	0+0k 0+0io 0pf+0w
+[sy45690@linux1 proj4-late2] exit
+exit
+
+Script done on 2018-11-19 12:50:30-05:00
